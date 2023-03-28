@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="../css/css.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мастерская звука</title>
+    <!-- -------------------------------------НАЧАЛО ШАПКИ---------------------------------------------- -->
+</head>
+<body>
+    <div class="header">
+        <div class="header_panel">
+            <div class="header_site_name">
+                <a class="name_site_font" href="index.html">Мастерская звука</a>
+            </div>
+            <div class="panel_navigation">
+                <ul class="panel_ul_1">
+                    <li class="panel_button"><a class="panel_link_1" href="index.html">главная </a></li>
+                    <li class="panel_button"><a class="panel_link_1" href="#">о сайте</a></li>
+                    <li class="panel_button"><a class="panel_link_1" href="#">контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_welcome_block">
+            <div class="header_welcome_text_block">
+                <p class="header_welcome_text">ТУпо заглушечка я не придумал ниче пока. еще текста надо навалить реал. хд)</p>
+            </div>
+            <div class="header_welcome_button">
+                <a class="header_anchor" href="#body_start">Начни сейчас!</a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------КОНЕЦ ШАПКИ---------------------------------------------- -->
+    <!-- -------------------------------------НАЧАЛО ТЕЛА---------------------------------------------- -->
+    <div class="body">
+        <a name="body_start"></a>
+        <div id="navigation_body">
+            <ul class="nav_ul_1">
+                <li class="nav_button_1"><a class="link_1" href="#">История</a></li>
+                <li class="nav_button_1"><a class="link_1" href="#">Виды гитар</a></li>
+                <li class="nav_button_1"><a class="link_1" href="#">Жанры</a></li>
+                <li class="nav_button_1"><a class="link_1" href="#">Известные исполнители</a></li>
+                <li class="nav_button_1"><a class="link_1" href="#">Техника игры</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="about_site">
+                <h1 class="about_site_topic">О сайте</h1>
+                <p class="about_site_text">
+                    Этот сайт посвещён истории и урокам игры на гитаре
+                    В данной серии статей вы сможете узнать об истории создания гитары. Буудт рассмотрены разновидности гитар и их жанры. А также читатели смогут прочитать про известных исполнителей.
+                </p>
+            </div>
+            <div class="basics">
+                <h1 class="basics_topic">Основы игры на гитаре</h1>
+                <div class="basics_content">
+                    <div class="basics_block_photo">
+                        <img class="basics_photo" src="image/basics_photo.jpg" />
+                    </div>
+                    <div class="basics_block">
+                        <p class="basics_text">
+                            В этой статье я постараюсь ответить на вопрос, <strong>как научиться играть на гитаре с нуля</strong>, если вы решили освоить инструмент <strong>самостоятельно</strong> , н
+                            е знаете, с чего начать обучение и как построить занятия.
+                        </p>
+                        <div class="basics_block_button">
+                                <a class="basics_button" href="#">кнопка</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo_menu">
+                <a href="" target="_blank"><img src="image/бои_f.png" /></a>
+                <a href="" target="_blank"><img src="image/аккорды_f.png" /></a>
+                <a href="" target="_blank"><img src="image/табы_f.png" /></a>
+                <a href="" target="_blank"><img src="image/переборы_f.png" /></a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------КОНЕЦ ТЕЛА---------------------------------------------- -->
+    <!-- -------------------------------------НАЧАЛО ПОДВАЛА---------------------------------------------- -->
+    <div class="footer">
+        <p class="footer_text">Имя Иван палыч тереньтьев Номер 8 880 228 1488.</p>
+    </div>
+    <!-- -------------------------------------КОНЕЦ ПОДВАЛА---------------------------------------------- -->
+    <script>
+        navigation_body.onclick = function () {
+            let start = Date.now();
+
+            let timer = setInterval(function () {
+                let timePassed = Date.now() - start;
+
+                navigation_body.style.left = timePassed / 5 + 'px';
+
+                if (timePassed > 2000) clearInterval(timer);
+
+            }, 20);
+        }
+    </script>
+</body>
+</html> 

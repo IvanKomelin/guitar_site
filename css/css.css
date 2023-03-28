@@ -1,0 +1,347 @@
+body {
+    margin: 0px;
+}
+/*-------------------------------------Õ¿◊¿ÀŒ ÿ¿œ »----------------------------------------------*/
+p {
+    font-family: 'Microsoft YaHei UI light';
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Microsoft YaHei UI light';
+    font-size: 36px;
+}
+.header {
+    display: flex;
+    max-width: 1904px;
+    height: 650px;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url("../html/image/GPguitar.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.header_panel {
+    display: flex;
+    position:absolute;
+    top:2%;
+    max-width: 1600px;
+    min-width:80%;
+    height: 50px;
+}
+
+.header_site_name {
+    display: flex;
+    position:absolute;
+    left:2%;
+    align-items: center;
+    height:100%;
+
+}
+
+.name_site_font {
+    display: flex;
+    font-family: 'Times New Roman';
+    font-size: 32px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.panel_navigation {
+    display: flex;
+    position:absolute;
+    right:2%;
+    width: 400px;
+    height:100%;
+}
+
+.panel_ul_1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel_button {
+    display: flex;
+    font-family: 'Microsoft YaHei UI light';
+    list-style-type: none;
+    align-items: center;
+}
+
+.panel_link_1 {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.header_welcome_block {
+    display: flex;
+    position:absolute;
+    top:400px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    width: 500px;
+    height: 175px;
+}
+
+.header_welcome_text_block {
+    display: flex;
+}
+
+.header_welcome_text {
+    color: white;
+    font-size: 23px;
+    font-family: 'Microsoft YaHei UI light';
+    text-align: center;
+}
+
+.header_welcome_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: solid 2px #904800;
+    background-color: #D96C00;
+    border-radius: 5px;
+}
+
+.header_anchor {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-family: 'Microsoft YaHei UI light';
+    font-size: 20px;
+    text-decoration: none;
+}
+/*------------------------------------- ŒÕ≈÷ ÿ¿œ »----------------------------------------------*/
+.body {
+    display: flex;
+    max-width: 1904px;
+    bottom: 100px;
+    justify-content: center;
+    background-color: #f5f4f2;
+    flex-wrap: wrap;
+}
+
+#navigation_body {
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+}
+
+.nav_ul_1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.nav_button_1 {
+    display: flex;
+    height: 50px;
+    list-style-type: none;
+    font-size: 24px;
+    align-items: center;
+    min-width: 100px;
+
+}
+
+.link_1 {
+    display: flex;
+    font-family: 'Microsoft YaHei UI light', sans-serif;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+    .link_1:visited {
+        color: #a6a4a2;
+    } 
+
+
+    .link_1:hover {
+        color: #D96C00;
+    }
+
+    .link_1:active {
+        color: #904800;
+    }
+.content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 50px 0px;
+}
+.about_site {
+    display:flex;
+    width:70%;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:50px;
+}
+.about_site_topic {
+    display: flex;
+    justify-content: center;
+    color: #FF8000;
+    width: 70%;
+    border-bottom: solid 3px #C46200;
+    padding-bottom: 5px;
+}
+.about_site_text {
+    text-align: center;
+}
+.basics {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.basics_content {
+    display:flex;
+}
+.basics_block {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.basics_topic {
+    display: flex;
+    justify-content: center;
+    color: #FF8000;
+    border-bottom: solid 3px #C46200;
+    width: 70%;
+    padding-bottom: 5px;
+}
+.basics_text {
+    text-align: center;
+}
+.basics_block_photo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-width:40%;
+    height:90%;
+}
+.basics_photo {
+    width: 100%;
+    height: 100%;
+}
+.basics_block_button {
+    display: flex;
+}
+.basics_block_block_button {
+
+}
+.basics_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #CE6700;
+    background-color: #FFA74F;
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    font-family: 'Microsoft YaHei UI light';
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+.photo_menu {
+    display:flex;
+    justify-content:space-between;
+    align-content:space-between;
+    flex-wrap:wrap;
+    width:70%;
+}
+/*------------------------------------- ŒÕ≈÷ “≈À¿----------------------------------------------*/
+/*-------------------------------------Õ¿◊¿ÀŒ œŒƒ¬¿À¿----------------------------------------------*/
+.footer {
+    display: flex;
+    font-size: 18px;
+    max-width: 1904px;
+    height: 100px;
+    padding: 10px;
+    background-color: #474645;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-top: 4px solid #D96C00;
+}
+
+.footer_text {
+    font-family: 'Microsoft YaHei UI light', sans-serif;
+    color:white;
+}
+/*------------------------------------- ŒÕ≈÷ œŒƒ¬¿À¿----------------------------------------------*/
+@media only screen and (max-width:980px) {
+    h1 {
+        font-size: 28px;
+        border-bottom: solid 2px black;
+    }
+    p {
+        font-size:16px;
+    }
+    .panel_link_1 {
+        font-size: 18px;
+    }
+
+    .name_site_font {
+        font-size: 22px;
+    }
+
+    .header_welcome_text {
+        font-size: 16px;
+    }
+
+    .header_welcome_button {
+        height:40px;
+        width:200px;
+    }
+    .header_anchor {
+        font-size: 14px;
+    }
+
+    .header_anchor {
+        width: 175px;
+        height: 35px;
+    }
+    .link_1 {
+        font-size:17px;
+    }
+    .basics_content {
+        flex-direction:column;
+    }
+    .basics_block_photo {
+        width:100%;
+        height:100px;
+    }
+    .basics_photo {
+        width: 60%;
+        height: 90%;
+    }
+    .basics_button {
+        font-size:14px;
+        width:160px;
+        height:35px;
+    }
+}
